@@ -1,0 +1,27 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "test node server for server side rendering",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --no-deprecation server.js"
+  },
+  "author": "Sourish Mukherjee",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "mongoose": "^6.0.13",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.15",
+    "oracledb": "^5.3.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.3.2"
+  }
+}
